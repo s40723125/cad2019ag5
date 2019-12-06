@@ -147,21 +147,22 @@ init_mathjax();
           </div>
           
         </header>
-    <div id="tipue_search_content">編寫軟體介紹 << <a href='編寫軟體介紹.html'>Previous</a> <a href='NX 12 for Engineering Design.html'>Next</a> >> NX 12 for Engineering Design<br /><h1>Introduction Pull request</h1>
-<p><strong><span style="color: #ff6600;">正反向拉回差別在於資料傳遞的方向。</span></strong></p>
-<p>假設是正向拉回，是<span style="color: #ff6600;">組員(無權限)將資料推送回組別倉儲後給組長(管理員)確認資料後使其合併</span>。</p>
-<p>反之，反向拉回是<span style="color: #ff6600;">管理者將權限給予組員讓他們擁有可merge的權力</span>，不過在這邊很常因為組員推送問題產生衝突，並且解決方式較為繁瑣，因此這學期並不推薦使用反向拉回的方式管理組別倉儲。</p>
-<p>以下為正向拉回範例:</p>
-<p><strong><span style="color: #ff6600;">step1</span></strong></p>
-<p><strong>先點入自己分組倉儲之pull request，出現畫面為(圖1)</strong></p>
-<p><img alt="" height="446" src="./../images/chrome_2019-11-29_03-28-40.png" width="700"/></p>
-<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><strong><span lang="zh-TW" tabindex="0"><br/>這時出現merge問題，但仍可以pull request，並按下Create</span></strong></pre>
-<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><strong><span lang="zh-TW" tabindex="0">pull request之按鍵</span></strong></pre>
-<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><br/><br/><br/><strong><span style="color: #ff6600;">step2</span></strong><br/><br/><strong>確認完再按下標題與傳遞內容後再按下</strong></span><strong><span lang="zh-TW" tabindex="0">Create </span></strong><span lang="zh-TW" tabindex="0"><strong>pull request</strong><br/><br/></span></pre>
-<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"><br/><img alt="" height="447" src="./../images/chrome_2019-11-29_03-29-12.png" width="700"/><br/><br/><strong><span style="color: #ff6600;">step3</span></strong><br/><br/><strong>出現畫面代表衝突檔案，需由管理員(組長)確認資料並合併之後處理衝突版面並再次推送，</strong><br/><strong>藉此merge完成</strong><br/><br/><img alt="" height="442" src="./../images/chrome_2019-11-29_03-31-21.png" width="700"/><br/><br/><br/></span></pre>
+    <div id="tipue_search_content">webots << <a href='webots.html'>Previous</a> <br /><h1>webots安裝</h1>
+<p>下載位置:<a href="https://drive.google.com/file/d/1MolDH7kKJt_IIBTrKalsMfNWMrqqTWdt/view?usp=sharing">Webots_2019b_rev1.7z</a></p>
+<p><span>1.新增啟動器</span></p>
+<p><a href="https://drive.google.com/file/d/1MolDH7kKJt_IIBTrKalsMfNWMrqqTWdt/view?usp=sharing"><img alt="" height="124" src="./../images/explorer_2019-12-06_10-50-20.png" width="687"/></a></p>
+<p>2.<span>執行路徑設定</span></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">set path_webots=%Disk%:\Webots_2019b_rev1\msys64\mingw64\bin;%Disk%:\Webots_2019b_rev1\msys64\usr\bin</pre>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">%path_webots%;</pre>
 <p></p>
-<p></p>
-<br />編寫軟體介紹 << <a href='編寫軟體介紹.html'>Previous</a> <a href='NX 12 for Engineering Design.html'>Next</a> >> NX 12 for Engineering Design</div>
+<p><img alt="" height="274" src="./../images/SciTE_2019-12-06_10-51-07.png" width="1099"/></p>
+<p>3.設定抓取的檔案</p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">start webots.exe%*
+</pre>
+<p><img alt="" height="90" src="./../images/SciTE_2019-12-06_11-10-00.png" width="412"/></p>
+<p>4.將檔案丟入啟動器底下</p>
+<p><img alt="" height="567" src="./../images/chrome_2019-12-06_11-18-46.png" width="1395"/></p>
+<p></p><br />webots << <a href='webots.html'>Previous</a> </div>
         
     <!-- footer -->
       <div class="container">
