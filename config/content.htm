@@ -75,7 +75,16 @@
 <p>40723125<span> </span><a href="https://s40723125.github.io/cad2019">張詠全</a></p>
 <p>40723152<span> </span><a href="https://s40723152.github.io/cad2019">陳俊任</a></p>
 <p>40723155<span> </span><a href="https://s40723155.github.io/cad2019">吳明峰</a></p>
-<p><span style="color: #ff6600;"></span></p>
+<h3>week13</h3>
+<p>第13週-Solvespace 與 NX12 參數繪圖與 V-rep 結合應用</p>
+<p>重點筆記: 講解NX3與NX12之間特性、差異</p>
+<p><span style="color: #ff6600;">NX3</span><br/>使用輸出VRML[選VRML2.0，轉入Webots(副檔名.wrl)]<br/>並勾選選項<br/> 1.output lights<br/> 2.output matenals<br/> 3.recursive multi file<br/><span style="color: #ff6600;">註</span>:<br/> 1.imput VRML為Webots打開之檔案類型<br/> 2.solvespace無法轉成wrl檔<br/> 3.wrl檔為文字檔<br/> <br/><span style="color: #ff6600;">NX12</span><br/>重要檔案<br/> 1.NXASSEMBLY(作用為轉檔)=IGES也是轉檔<br/> 2.NXBIN<br/> 3.UGII<br/>註:<br/> 1.Journal=畫圖中並同時儲存<br/> <br/><span style="color: #ff6600;">比較差異</span></p>
+<p><span style="color: #ff6600;">NX3</span>=較陽春，但簡便，可執行放在UGII檔裡</p>
+<p><span style="color: #ff6600;">NX12</span>=規格、功能性相對齊全，但為了配合Windows 7之後的升級改版，直接將大部分檔案放在NXBIN裡，不過有些重要檔案仍儲存在UGII裡。</p>
+<p><span style="color: #ff6600;">HOW TO </span><span style="color: #ff6600;">將NX12程式語言改成Python</span></p>
+<p>改寫位置之操作順序:<br/>File&gt;Preferences&gt;User interface&gt;Tools</p>
+<p>原先Journal language中將Visual Basic選項改為Python選項</p>
+<p>目的:<br/>主要方面日後藉由程式去操作NX12</p>
 <p></p><h1>Introduction</h1>
 <p>一</p>
 <p>編寫1-<span>solidworks(中階)</span></p>
@@ -218,4 +227,21 @@
 <p><br/><span>第9章</span>將是在製造中實施設計模型的實時經驗加工環境。本章介紹工具的生成，驗證和模擬創建CNC（計算機數字代碼）以從多軸生產設計零件的路徑甚至先進的CNC機器。每章中使用的示例和練習問題都經過精心設計，以使它們最終得以應用組裝在本章中。由於這項獨特的功能，您應該保存所有的模型在每一章中都有創建。</p>
 <p>資料連結</p>
 <p><a href="http://mde.tw/cad2019/content/NX.html">http://mde.tw/cad2019/content/NX.html</a></p>
+<h1>Deal with problems</h1>
+<p>Q:當倉儲git pull+分組倉儲網址後發現無法正常開啟近端</p>
+<p>A:將倉儲start鍵放入文字編輯器並且查看，發現有多一個分號（：），將分號刪除並儲存後即可進入近端</p>
+<p>BEFORE</p>
+<p></p>
+<p><img alt="" height="733" src="/images/SciTE_36MTvUZbDJ.png" width="562"/></p>
+<p>AFTER</p>
+<p><img alt="" height="733" src="/images/SciTE_WmXxrhgYK4.png" width="562"/></p>
+<p></p>
+<p>Reason:因為有人倉儲本身是壞的，因此當其他人gitpull時會讓他人倉儲錯誤，造成倉儲近端損毀。</p>
+<p>Q:為什麼用了git pull 分組倉儲網址完無法正確連結完成並進行改版</p>
+<p>A:先將倉儲中最新版本反向拉回（左為本身，右為管理者）並且git commit git push上去後再次進入近端即可改為最新版本進行改版推送</p>
+<p>EX:</p>
+<p><img alt="" height="38" src="/images/1576172831774.jpg" width="700"/></p>
+<p>Reason:有可能因為尚未推送回分組倉儲使最新版本與自身隨身碟中可攜系統舊版沒有連結成功，因此git pull 分組倉儲網址完進入近端依然還是舊版</p>
+<p></p>
+<p></p>
 <p></p></div>
