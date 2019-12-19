@@ -87,6 +87,17 @@
 <p>改寫位置之操作順序:<br/>File&gt;Preferences&gt;User interface&gt;Tools</p>
 <p>原先Journal language中將Visual Basic選項改為Python選項</p>
 <p>目的:<br/>主要方面日後藉由程式去操作NX12</p>
+<h3>week14</h3>
+<p><span><span style="color: #ff6600;">任務</span>:</span></p>
+<p><span>同步<span>啟動跨組自評與互評機制</span>, 並針對課程內容所要求的任務要項逐一查驗各組員學習成效, 希望在鼓勵組員公開倉儲內容與教學影片互相學習之餘, 也能達到公平計分的目的，同時也強制性規定需作筆記。</span></p>
+<p><span>在第十四週也逐步介紹NX、Solvespace、Webots的執行與互動</span></p>
+<p><span style="color: #ff6600;">Q.如何用SciTe執行Python，與NX、Solvespace、Webots互動</span></p>
+<p><span><span><span style="color: #ff0000;">A</span>:</span></span><span><span>程式由外部控制虛擬、實體(大略贅述，詳情敘述只紀錄關鍵字)</span></span></p>
+<p><span style="color: #ff6600;">片刻紀錄</span><span><span>:</span></span></p>
+<p><span><span><span style="color: #ff0000;">1</span>.關鍵字:nx run journal=用python執行，但沒跑出原始碼。</span></span></p>
+<p><span><span><span style="color: #ff0000;">2</span>.需放Download裡(只是demo)=可直接給路徑&lt;path:path&gt;名稱(yrl.學號)，使學號在路徑連結。</span></span></p>
+<p><span><span><span style="color: #ff0000;">3</span>.cmsimde@...=為release轉出版本，會改變數字。</span></span></p>
+<p></p>
 <p></p><h1>Introduction</h1>
 <p>一</p>
 <p>編寫1-<span>solidworks(中階)</span></p>
@@ -231,9 +242,9 @@
 <p><br/><span>第9章</span>將是在製造中實施設計模型的實時經驗加工環境。本章介紹工具的生成，驗證和模擬創建CNC（計算機數字代碼）以從多軸生產設計零件的路徑甚至先進的CNC機器。每章中使用的示例和練習問題都經過精心設計，以使它們最終得以應用組裝在本章中。由於這項獨特的功能，您應該保存所有的模型在每一章中都有創建。</p>
 <p>資料連結</p>
 <p><a href="http://mde.tw/cad2019/content/NX.html">http://mde.tw/cad2019/content/NX.html</a></p>
-<<<<<<< HEAD
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 <h1>Deal with problems</h1>
-<p>Q:當倉儲git pull+分組倉儲網址後發現無法正常開啟近端</p>
+<p>Q:<span style="color: #ff6600;">當倉儲git pull+分組倉儲網址後發現無法正常開啟近端</span></p>
 <p>A:將倉儲start鍵放入文字編輯器並且查看，發現有多一個分號（：），將分號刪除並儲存後即可進入近端</p>
 <p>BEFORE</p>
 <p></p>
@@ -242,21 +253,36 @@
 <p><img alt="" height="733" src="/images/SciTE_WmXxrhgYK4.png" width="562"/></p>
 <p></p>
 <p>Reason:因為有人倉儲本身是壞的，因此當其他人gitpull時會讓他人倉儲錯誤，造成倉儲近端損毀。</p>
-<p>Q:為什麼用了git pull 分組倉儲網址完無法正確連結完成並進行改版</p>
+<p></p>
+<p></p>
+<p>Q:<span style="color: #ff6600;">為什麼用了git pull 分組倉儲網址完無法正確連結完成並進行改版</span></p>
 <p>A:先將倉儲中最新版本反向拉回（左為本身，右為管理者）並且git commit git push上去後再次進入近端即可改為最新版本進行改版推送</p>
 <p>EX:</p>
 <p><img alt="" height="38" src="/images/1576172831774.jpg" width="700"/></p>
 <p>Reason:有可能因為尚未推送回分組倉儲使最新版本與自身隨身碟中可攜系統舊版沒有連結成功，因此git pull 分組倉儲網址完進入近端依然還是舊版</p>
 <p></p>
 <p></p>
-<p></p></div>
-=======
+<p><span>Q</span><span style="color: #ff6600;">為什麼管理員merge完會使倉儲爆掉，產生舊版與新版衝突(如下)</span></p>
+<p><span style="color: #ff6600;"><img alt="" height="390" src="/images/chrome_NgGYXIPV5c.png" width="800"/></span></p>
+<p><span>A:</span></p>
+<p>在這次解決問題中，由於近端未有衝突問題並且使用正常，進入近端按下轉靜態後再次git push上傳即可恢復網頁</p>
+<p><span>RESEASON</span><span>(原因 ):</span></p>
+<p>有可能是因為其中一位倉儲推送上去使用到git pull的緣故使得新舊版產生合併問題，造成有兩個版面的緣由</p>
 <p></p>
-</div>
-<p>&gt;&gt;&gt;&gt;&gt;&gt;&gt; 3c00c6034143b884b732977f33923c0eb068131a</p>
-<h1>webots</h1>
+<p>Q<span style="color: #ff6600;">進入近端卻直接跳下一行並沒有做任何作動</span></p>
+<p>EX:</p>
+<p>D:\87\cmsimde&gt;python wsgi.py</p>
+<p><span>D:\87\cmsimde&gt;</span></p>
+<p><span>A:</span></p>
+<p><span><span>將啟動程式按鍵(start_mdecourse.bat)拖曳到SciTe裡，並將裡面其中一行程式多餘的開頭程式<span>%path%</span>刪除，重新啟動(按下Stop.bat)即可恢復正常。</span></span></p>
+<p><span><span><img alt="" height="799" src="/images/SciTE_2019-12-19_22-28-04.png" width="900"/></span></span></p>
+<p><span>如上圖所示，但前面的%path%以更改完畢，因此範例中的程式是已經改善完畢的。</span></p>
+<p><span>RESEASON(原因 ):</span></p>
+<p><span><span><span>因為%path%為進入近端之bug，需查看是否修正完畢。</span></span></span></p><h1>webots</h1>
 <p>參考資料<a href="http://mde.tw/cad2019/content/Webots.html">http://mde.tw/cad2019/content/Webots.html</a></p>
-<p></p><h2>webots安裝</h2>
+<p><span style="color: #ff0000;">webots:有五種程式可運用，ex:C、C++、Python、Java、MATLAB，為零組件組合軟件。</span></p>
+<p><span style="color: #ff6600;">註解</span>:建立模型孔需有間隙(SOLVESPACE)，因轉出零件檔案(零件件數有多少，就轉多少次)，再轉入WEBOTS。</p>
+<p>目前因WEBOTS還是商用化，因此檔案仍停留在1999年。</p><h2>webots安裝</h2>
 <p>下載位置:<a href="https://drive.google.com/file/d/1MolDH7kKJt_IIBTrKalsMfNWMrqqTWdt/view?usp=sharing">Webots_2019b_rev1.7z</a></p>
 <p><span>1.新增啟動器</span></p>
 <p><a href="https://drive.google.com/file/d/1MolDH7kKJt_IIBTrKalsMfNWMrqqTWdt/view?usp=sharing"><img alt="" height="124" src="/images/explorer_2019-12-06_10-50-20.png" width="687"/></a></p>
@@ -272,4 +298,5 @@
 <p>4.將檔案丟入啟動器底下</p>
 <p><img alt="" height="567" src="/images/chrome_2019-12-06_11-18-46.png" width="1395"/></p>
 <p></p>
->>>>>>> b4fee0d9ffa60977afe285b9d29bff3b6a37819c
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; b4fee0d9ffa60977afe285b9d29bff3b6a37819c
+</div>
