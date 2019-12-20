@@ -33,6 +33,18 @@
 <v t="leo.20191213012742.1"><vh>13 week-2</vh>
 <v t="leo.20191213012742.2"><vh>13週內容-2</vh></v>
 </v>
+<v t="leo.20191220013348.1"><vh>week14-1</vh>
+<v t="leo.20191220013348.2"><vh>week14-1</vh></v>
+</v>
+<v t="leo.20191220013358.1"><vh>week14-1.1</vh>
+<v t="leo.20191220013358.2"><vh>week14-1</vh></v>
+</v>
+<v t="leo.20191220013404.1"><vh>week14-2</vh>
+<v t="leo.20191220013404.2"><vh>week14-1</vh></v>
+</v>
+<v t="leo.20191220013413.1"><vh>週期課程</vh>
+<v t="leo.20191220013413.2"><vh>投影片快捷鍵</vh></v>
+</v>
 <v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -426,5 +438,76 @@ File&gt;Preferences&gt;User interface&gt;Tools
 主要方面日後藉由程式去操作NX12
 
 Finish.</t>
+<t tx="leo.20191220013348.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191220013348.2">WEEK14
+
+重點筆記:   
+同步啟動跨組自評與互評機制, 並針對課程內容所要求的任務要項逐一查驗各組員學習成效,同時也強制性規定需作筆記。
+
+在第十四週也逐步介紹NX、Solvespace、Webots的執行與互動
+
+
+</t>
+<t tx="leo.20191220013358.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191220013358.2">WEEK14
+
+Q.如何用SciTe執行Python，與NX、Solvespace、Webots互動
+
+A:程式由外部控制虛擬、實體(大略贅述，詳情敘述只紀錄關鍵字)
+
+</t>
+<t tx="leo.20191220013404.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191220013404.2">WEEK14
+片刻紀錄:
+
+1.關鍵字:nx run journal=用python執行，但沒跑出原始碼。
+
+2.需放Download裡(只是demo)=可直接給路徑&lt;path:path&gt;名稱(yrl.學號)，使學號在路徑連結。
+
+3.cmsimde@...=為release轉出版本，會改變數字。
+</t>
+<t tx="leo.20191220013413.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191220013413.2"># w10-w18學習課程
+
+* W10 - 開始全班維護一個協同倉儲, 各參數繪圖套件安裝
+* W11-W13 - Solvespace 與 NX12 參數繪圖與 V-rep 結合應用
+* W14-W15 - NX12 零件工程分析
+* W16-W17 - V-rep 越野車與行走機構模擬
+* W18 - 期末考週 - 各任務驗證, 分組 reveal 期末簡報
+
+
+</t>
 </tnodes>
 </leo_file>
