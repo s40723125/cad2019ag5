@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by Leo: http://leoeditor.com/leo_toc.html -->
 <leo_file xmlns:leo="http://leoeditor.com/namespaces/leo-python-editor/1.1" >
-<leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
-<globals body_outline_ratio="0.5" body_secondary_ratio="0.5">
-	<global_window_position top="50" left="50" height="500" width="700"/>
-	<global_log_window_position top="0" left="0" height="0" width="0"/>
-</globals>
+<leo_header file_format="2"/>
+<globals/>
 <preferences/>
 <find_panel_settings/>
 <vnodes>
@@ -13,28 +10,61 @@
 <v t="leo.20180902120538.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20180902120538.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="leo.20180902120523.1" a="E"><vh>編輯 reveal</vh>
-<v t="leo.20180902120523.2" a="E"><vh>@path ./../reveal</vh>
-<v t="leo.20180902120523.3" a="E"><vh>@clean index.html</vh>
-<v t="leo.20180902120523.4" a="E"><vh>html</vh>
+<v t="leo.20180902120523.1"><vh>編輯 reveal</vh>
+<v t="leo.20180902120523.2"><vh>@path ./../reveal</vh>
+<v t="leo.20180902120523.3"><vh>@clean index.html</vh>
+<v t="leo.20180902120523.4"><vh>html</vh>
 <v t="leo.20180902120523.5"><vh>head</vh></v>
-<v t="leo.20180902120523.6" a="E"><vh>body</vh>
-<v t="leo.20180902120523.7" a="E"><vh>reveal div</vh>
-<v t="leo.20180902120523.8" a="E"><vh>slides div</vh>
-<v t="leo.20180902120523.9" a="E"><vh>封面投影片</vh>
+<v t="leo.20180902120523.6"><vh>body</vh>
+<v t="leo.20180902120523.7"><vh>reveal div</vh>
+<v t="leo.20180902120523.8"><vh>slides div</vh>
+<v t="leo.20180902120523.9"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180902120523.11" a="E"><vh>快捷鍵</vh>
+<v t="leo.20191213012721.1"><vh>13 week-nx3</vh>
+<v t="leo.20191213012721.2"><vh>13週內容-1</vh></v>
+</v>
+<v t="leo.20191213012729.1"><vh>13 week-nx12</vh>
+<v t="leo.20191213012729.2"><vh>13週內容-1</vh></v>
+</v>
+<v t="leo.20191213012736.1"><vh>13 week-diffient</vh>
+<v t="leo.20191213012736.2"><vh>13週內容-1</vh></v>
+</v>
+<v t="leo.20191213012742.1"><vh>13 week-2</vh>
+<v t="leo.20191213012742.2"><vh>13週內容-2</vh></v>
+</v>
+<v t="leo.20191220013348.1"><vh>week14-1</vh>
+<v t="leo.20191220013348.2"><vh>week14-1</vh></v>
+</v>
+<v t="leo.20191220013358.1"><vh>week14-1.1</vh>
+<v t="leo.20191220013358.2"><vh>week14-1</vh></v>
+</v>
+<v t="leo.20191220013404.1"><vh>week14-2</vh>
+<v t="leo.20191220013404.2"><vh>week14-1</vh></v>
+</v>
+<v t="leo.20200109172018.1"><vh>week15</vh>
+<v t="leo.20200109172018.2"><vh>week15-1</vh></v>
+</v>
+<v t="leo.20200109172401.1"><vh>week16</vh>
+<v t="leo.20200109172401.2"><vh>week16-1</vh></v>
+</v>
+<v t="leo.20200109172507.1"><vh>week17</vh>
+<v t="leo.20200109172507.2"><vh>week17-1</vh></v>
+</v>
+<v t="leo.20191220013413.1"><vh>週期課程</vh>
+<v t="leo.20191220013413.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180902120523.14" a="E"><vh>導入數學符號與方程式</vh>
+<v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20180902120523.16" a="E"><vh>導入縮排程式碼</vh>
+<v t="leo.20180902120523.16"><vh>導入縮排程式碼</vh>
 <v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20180902120523.18" a="E"><vh>導入影片</vh>
+<v t="leo.20180902120523.18"><vh>導入影片</vh>
 <v t="leo.20180902120523.19"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
@@ -48,15 +78,17 @@
 </vnodes>
 <tnodes>
 <t tx="leo.20180902120523.1"></t>
-<t tx="leo.20180902120523.10">## CMSimfly 網際內容管理
+<t tx="leo.20180902120523.10">## Cad2019-AG5報告
 
-### KMOLab
+### 第五組
 
 &lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
+Created by [AG5](https://github.com/s40723125/cad2019ag5)
 &lt;/small&gt;
 
-[CMSimfly 網誌](./../blog/index.html)
+[分組網頁](./../content/index.html)
+
+[分組網誌](./../blog/index.html)
 
 
 </t>
@@ -326,5 +358,213 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
+<t tx="leo.20191213012721.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191213012721.2">WEEK13
+Solvespace 與 NX12 參數繪圖與 V-rep 結合應用
+
+重點筆記:  講解NX3與NX12之間特性、差異
+NX3
+使用輸出VRML[選VRML2.0，轉入Webots(副檔名.wrl)]，並勾選以下選項
+1.output lights
+2.output matenals
+3.recursive multi file
+
+註
+1.imput VRML為Webots打開之檔案類型
+2.solvespace無法轉成wrl檔
+3.wrl檔為文字檔
+
+
+
+        </t>
+<t tx="leo.20191213012729.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191213012729.2">WEEK13
+
+NX12
+以下為nx12重要檔案
+
+1.NXASSEMBLY(作用為轉檔)=IGES也是轉檔
+2.NXBIN
+3.UGII0
+註
+1.Journal=畫圖中並同時儲存
+</t>
+<t tx="leo.20191213012736.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191213012736.2">WEEK13
+
+重點筆記:     講解NX3與NX12之間特性、差異
+
+NX3=較陽春，但簡便，可執行放在UGII檔裡
+
+NX12=規格、功能性相對齊全，但為了配合Windows 7之後的升級改版，直接將大部分檔案放在NXBIN裡，不過有些重要檔案仍儲存在UGII裡。
+
+
+
+</t>
+<t tx="leo.20191213012742.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191213012742.2">WEEK13
+
+重點筆記:     將NX12程式語言改成Python
+
+改寫位置之操作順序:
+File&gt;Preferences&gt;User interface&gt;Tools
+
+原先Journal language中將Visual Basic選項改為Python選項
+
+目的:
+主要方面日後藉由程式去操作NX12
+
+Finish.</t>
+<t tx="leo.20191220013348.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191220013348.2">WEEK14
+
+重點筆記:   
+同步啟動跨組自評與互評機制, 並針對課程內容所要求的任務要項逐一查驗各組員學習成效,同時也強制性規定需作筆記。
+
+在第十四週也逐步介紹NX、Solvespace、Webots的執行與互動
+
+
+</t>
+<t tx="leo.20191220013358.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191220013358.2">WEEK14
+
+Q.如何用SciTe執行Python，與NX、Solvespace、Webots互動
+
+A:程式由外部控制虛擬、實體(大略贅述，詳情敘述只紀錄關鍵字)
+
+</t>
+<t tx="leo.20191220013404.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191220013404.2">WEEK14
+片刻紀錄:
+
+1.關鍵字:nx run journal=用python執行，但沒跑出原始碼。
+
+2.需放Download裡(只是demo)=可直接給路徑&lt;path:path&gt;名稱(yrl.學號)，使學號在路徑連結。
+
+3.cmsimde@...=為release轉出版本，會改變數字。
+</t>
+<t tx="leo.20191220013413.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191220013413.2"># w10-w18學習課程
+
+* W10 - 開始全班維護一個協同倉儲, 各參數繪圖套件安裝
+* W11-W13 - Solvespace 與 NX12 參數繪圖與 V-rep 結合應用
+* W14-W15 - NX12 零件工程分析
+* W16-W17 - V-rep 越野車與行走機構模擬
+* W18 - 期末考週 - 各任務驗證, 分組 reveal 期末簡報
+
+
+</t>
+<t tx="leo.20200109172018.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109172018.2">WEEK15
+檢驗1:
+&lt;small&gt;
+Created by [檢驗1](https://s40723114.github.io/cad2019/content/w15%20First.html)
+
+
+</t>
+<t tx="leo.20200109172401.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109172401.2">WEEK16
+檢驗2:
+&lt;small&gt;
+Created by [檢驗1](https://s40723103.github.io/cad2019/content/Week16.html)
+
+
+</t>
+<t tx="leo.20200109172507.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109172507.2">WEEK17
+檢驗3:
+&lt;small&gt;
+Created by [檢驗1](https://s40723114.github.io/cad2019/content/w17%20%E6%9F%A5%E9%A9%973.html)
+
+
+</t>
 </tnodes>
 </leo_file>

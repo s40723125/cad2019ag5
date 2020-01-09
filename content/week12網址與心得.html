@@ -1,0 +1,223 @@
+<!DOCTYPE html><html>
+        <head>
+        <title>CMSiMDE</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/magnific-popup.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/jquery-ui.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap-datepicker.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/flaticon/font/flaticon.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/aos.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/style.css">
+        <link rel="shortcut icon" href="./../cmsimde/static/favicons.png">
+        
+        <style type='text/css'>
+            .site-section {
+            background-color: #FFFF;
+            padding: 40px 40px;
+            }
+            body > div > div.dropdown.open {
+                display: block;
+            }
+        </style>
+    
+        <!-- <script src="./../cmsimde/static/jquery.js"></script> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+        <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/normalize.min.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch_set.js"></script>
+        <script src="tipuesearch_content.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/tipuesearch.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch.js"></script>
+        <script>
+            /* original tipuesearch
+            $(document).ready(function() {
+                 $('#tipue_search_input').tipuesearch();
+            });
+            */
+            // customed doSearch
+            function doSearch() {
+                $('#tipue_search_input').tipuesearch({
+                    newWindow: true, 
+                    minimumLength: 2,
+                    wholeWords: false, // for search 中文
+                });
+            }
+            $(document).ready(doSearch);
+        </script>
+        
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushHaxe.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDart.js"></script>
+<link type="text/css" rel="stylesheet" href="./../cmsimde/static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+<!-- for LaTeX equations 暫時不用
+<script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+<script type="text/javascript">
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+}
+init_mathjax();
+</script>
+-->
+<!-- 暫時不用
+<script src="./../cmsimde/static/fengari-web.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+
+</head>
+<body>
+<div class='container'><nav>
+        
+    <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+            <header class="site-navbar py-4 bg-white" role="banner">
+              <div class="container-fluid">
+                <div class="row align-items-center">
+                <h1>cad2019-ag5</h1>
+                <div class="pl-4">
+                    <form>
+                    <input type="text" placeholder="Search" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required>
+                    </form>
+                </div>
+                  <!-- <div class="col-11 col-xl-2">
+                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">cad2019-ag5</a></h1> 
+                  </div>
+                  -->
+                  <div class="col-12 col-md-10 d-none d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+    <ul class='site-menu js-clone-nav mr-auto d-none d-lg-block'>
+                        <li class="active has-children"><a href="index.html">Home</a>
+                        <ul class="dropdown">
+                            <li><a href="sitemap.html">Site Map</a></li>
+                            <li><a href="./../reveal/index.html">reveal</a></li>
+                            <li><a href="./../blog/index.html">blog</a></li>
+                        </ul>
+                      </li>
+                     <li><a href='member.html'>member</a><li class='has-children'><a href='Final Focus.html'>Final Focus</a><ul class='dropdown'><li class='has-children'><a href='week practice.html'>week practice</a><ul class='dropdown'><li><a href='week12網址與心得.html'>week12網址與心得</a><li><a href='week13.html'>week13</a><li><a href='week14.html'>week14</a><li><a href='week15.html'>week15</a><li><a href='week17.html'>week17</a></li></li></ul></ul><li class='has-children'><a href='Introduction.html'>Introduction</a><ul class='dropdown'><li><a href='編寫軟體介紹.html'>編寫軟體介紹</a><li><a href='Introduction Pull request.html'>Introduction Pull request</a><li><a href='NX 12 for Engineering Design.html'>NX 12 for Engineering Design</a></li></ul><li><a href='Deal with problems.html'>Deal with problems</a><li class='has-children'><a href='webots.html'>webots</a><ul class='dropdown'><li><a href='webots安裝.html'>webots安裝</a></li></ul><li class='has-children'><a href='W17 協同任務.html'>W17 協同任務</a><ul class='dropdown'><li><a href='Webots User Guide.html'>Webots User Guide</a><li><a href='Building a clean model tutorial.html'>Building a clean model tutorial</a></li>
+                      </ul>
+                </nav>
+              </div>
+              <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+              </div>
+
+            </div>
+          </div>
+          
+        </header>
+    <div id="tipue_search_content">week practice << <a href='week practice.html'>Previous</a> <a href='week13.html'>Next</a> >> week13<br /><h1>week12網址與心得</h1>
+<p>40523113<span> </span><a href="https://s40523113.github.io/cad2019">吳宜賢</a></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/PWkKuOJ0tCI" width="560"></iframe></p>
+<p>40623252<span> </span><a href="https://s40623252.github.io/cad2019">李展齊</a></p>
+<p>40723101<span> </span><a href="https://s40723101.github.io/cad2019">沈易萱</a></p>
+<p>40723103<span> </span><a href="https://s40723103.github.io/cad2019">林晏瑩</a></p>
+<p><span style="color: #ff6600;"><span style="color: #000000;">網址:</span><a href="https://www.youtube.com/watch?v=tgTjdzZdQTk" style="color: #ff6600;">https://www.youtube.com/watch?v=tgTjdzZdQTk</a></span>(NX12之操作)</p>
+<p><iframe allowfullscreen="allowfullscreen" height="450" src="//www.youtube.com/embed/tgTjdzZdQTk" width="600"></iframe></p>
+<p>心得:</p>
+<p>對於剛接觸兩款軟體的新手而言，<span style="color: #ff6600;">NX12</span>為接受度較高的高階套件，<span>模擬與加工程序與應力分析和繪製3D草圖為該套件之特色，</span>並且指令相對於簡潔明瞭，運用在繪製草圖或是物件分析的部分都做得相對周到，儘管模擬加工方面之限制比較多之外，整體操作上較為順手。</p>
+<p>另一方面<span style="color: #ff6600;">Webots</span>主要為3D模擬套件，實際使用物體去模擬移動位置，可變換出不同場景已供參考，在設定操作步驟方面相對繁瑣，而測試機器人與機械傳動件作動為該套件主要特性，也可<span>指定對象的圖形和物理屬性。</span></p>
+<p><span><span style="color: #ff6600;">註</span>:</span><span>圖形屬性包括對象的形狀，尺寸，位置和方向，顏色和紋理。</span></p>
+<p><span style="color: #003300;">兩者套件比較下，個人偏向使用NX操作，因操作明瞭標示明顯，各指令也會給予相對詳細的解說，是新手也能操作順手的軟體。</span></p>
+<p>40723107<span> </span><a href="https://s40723107.github.io/cad2019">王晨祐</a></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/oY5uNuEx1bM" width="560"></iframe></p>
+<p>心得 :  第一次使用nx12繪圖還有些不習慣，經過電子書的說明跟閱讀後才懂得如何約束草圖上的線，比起solvespace的操作nx12的內容更加複雜也擁有比較多的應用可以使用，例如模擬與加工程序與應力分析這些功能可以使用，比起solvespace 跟 inventor這些繪圖程式，nx12的功能雖然比較繁多相反的需要更多時間去摸索跟熟悉。</p>
+<p>40723114<span> </span><a href="https://s40723114.github.io/cad2019">杜永瀚</a></p>
+<p><span style="color: #ff9900;"><a href="https://www.youtube.com/watch?v=LPlDoJRslU0" style="color: #ff9900;">https://www.youtube.com/watch?v=LPlDoJRslU0</a></span></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/LPlDoJRslU0" width="560"></iframe></p>
+<p>心得:</p>
+<p><span>在使用NX12的時候,一開始很不習慣,因為NX12為高階cad軟體,所以花了一些時間摸索,用完NX12發現它的功能很強大也很多,但操作起來也變得相當複雜,之前常用SOLID WORK,發現SOLID WORK用起來是比NX12好上手,但NX12功能較多,也較廣泛.</span></p>
+<p>40723119<span> </span><a href="https://s40723119.github.io/cad2019">林哲緯</a></p>
+<p>40723122<span> </span><a href="https://s40723122.github.io/cad2019">施東勝</a></p>
+<p>40723124<span> </span><a href="https://s40723124.github.io/cad2019">徐敬倫</a></p>
+<p>40723125<span> </span><a href="https://s40723125.github.io/cad2019">張詠全</a></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/A-Iu8Uhgp_c" width="560"></iframe></p>
+<p>心得:第一次使用NX12繪製，還不習慣只能做到簡單的特徵，在這本<a href="http://mde.tw/cad2019/downloads/NX-12-for-Engineering-Design.pdf">NX 12 for Engineering Design</a>原文書中可以學到很多進階的操作，目前我只讀到第2章就能繪製成這樣，在讀下去就不得了!</p>
+<p>40723152<span> </span><a href="https://s40723152.github.io/cad2019">陳俊任</a></p>
+<p>40723155<span> </span><a href="https://s40723155.github.io/cad2019">吳明峰</a></p>
+<br />week practice << <a href='week practice.html'>Previous</a> <a href='week13.html'>Next</a> >> week13</div>
+        
+    <!-- footer -->
+      <div class="container">
+        <div class="row pt-3 mx-auto">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+      </div>
+    <!-- for footer -->
+    
+        </div> <!-- for site wrap -->
+            <!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
+            <script src="../cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery-ui.js"></script>
+            <script src="../cmsimde/static/chimper/js/popper.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/owl.carousel.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.stellar.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.countdown.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/aos.js"></script>
+            <!--
+            <script src="../cmsimde/static/chimper/js/typed.js"></script>
+                    <script>
+                    var typed = new Typed('.typed-words', {
+                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
+                    typeSpeed: 80,
+                    backSpeed: 80,
+                    backDelay: 4000,
+                    startDelay: 1000,
+                    loop: true,
+                    showCursor: true
+                    });
+                    </script>
+            -->
+            <script src="../cmsimde/static/chimper/js/main.js"></script>
+        </body></html>
+        

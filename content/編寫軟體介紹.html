@@ -1,0 +1,283 @@
+<!DOCTYPE html><html>
+        <head>
+        <title>CMSiMDE</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/magnific-popup.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/jquery-ui.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap-datepicker.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/flaticon/font/flaticon.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/aos.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/style.css">
+        <link rel="shortcut icon" href="./../cmsimde/static/favicons.png">
+        
+        <style type='text/css'>
+            .site-section {
+            background-color: #FFFF;
+            padding: 40px 40px;
+            }
+            body > div > div.dropdown.open {
+                display: block;
+            }
+        </style>
+    
+        <!-- <script src="./../cmsimde/static/jquery.js"></script> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+        <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/normalize.min.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch_set.js"></script>
+        <script src="tipuesearch_content.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/tipuesearch.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch.js"></script>
+        <script>
+            /* original tipuesearch
+            $(document).ready(function() {
+                 $('#tipue_search_input').tipuesearch();
+            });
+            */
+            // customed doSearch
+            function doSearch() {
+                $('#tipue_search_input').tipuesearch({
+                    newWindow: true, 
+                    minimumLength: 2,
+                    wholeWords: false, // for search 中文
+                });
+            }
+            $(document).ready(doSearch);
+        </script>
+        
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushHaxe.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDart.js"></script>
+<link type="text/css" rel="stylesheet" href="./../cmsimde/static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+<!-- for LaTeX equations 暫時不用
+<script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+<script type="text/javascript">
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+}
+init_mathjax();
+</script>
+-->
+<!-- 暫時不用
+<script src="./../cmsimde/static/fengari-web.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+
+</head>
+<body>
+<div class='container'><nav>
+        
+    <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+            <header class="site-navbar py-4 bg-white" role="banner">
+              <div class="container-fluid">
+                <div class="row align-items-center">
+                <h1>cad2019-ag5</h1>
+                <div class="pl-4">
+                    <form>
+                    <input type="text" placeholder="Search" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required>
+                    </form>
+                </div>
+                  <!-- <div class="col-11 col-xl-2">
+                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">cad2019-ag5</a></h1> 
+                  </div>
+                  -->
+                  <div class="col-12 col-md-10 d-none d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+    <ul class='site-menu js-clone-nav mr-auto d-none d-lg-block'>
+                        <li class="active has-children"><a href="index.html">Home</a>
+                        <ul class="dropdown">
+                            <li><a href="sitemap.html">Site Map</a></li>
+                            <li><a href="./../reveal/index.html">reveal</a></li>
+                            <li><a href="./../blog/index.html">blog</a></li>
+                        </ul>
+                      </li>
+                     <li><a href='member.html'>member</a><li class='has-children'><a href='Final Focus.html'>Final Focus</a><ul class='dropdown'><li class='has-children'><a href='week practice.html'>week practice</a><ul class='dropdown'><li><a href='week12網址與心得.html'>week12網址與心得</a><li><a href='week13.html'>week13</a><li><a href='week14.html'>week14</a><li><a href='week15.html'>week15</a><li><a href='week17.html'>week17</a></li></li></ul></ul><li class='has-children'><a href='Introduction.html'>Introduction</a><ul class='dropdown'><li><a href='編寫軟體介紹.html'>編寫軟體介紹</a><li><a href='Introduction Pull request.html'>Introduction Pull request</a><li><a href='NX 12 for Engineering Design.html'>NX 12 for Engineering Design</a></li></ul><li><a href='Deal with problems.html'>Deal with problems</a><li class='has-children'><a href='webots.html'>webots</a><ul class='dropdown'><li><a href='webots安裝.html'>webots安裝</a></li></ul><li class='has-children'><a href='W17 協同任務.html'>W17 協同任務</a><ul class='dropdown'><li><a href='Webots User Guide.html'>Webots User Guide</a><li><a href='Building a clean model tutorial.html'>Building a clean model tutorial</a></li>
+                      </ul>
+                </nav>
+              </div>
+              <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+              </div>
+
+            </div>
+          </div>
+          
+        </header>
+    <div id="tipue_search_content">Introduction << <a href='Introduction.html'>Previous</a> <a href='Introduction Pull request.html'>Next</a> >> Introduction Pull request<br /><h1>編寫軟體介紹</h1>
+<p><span>NX特點</span></p>
+<p><span><span>• </span><span> </span>3D 零件建模使用協力廠商的 CAD 模型。</span><span>利用同步建模技術，可直接編輯零件模型，並準備讓零件進入NC編程<span face="微軟正黑體">。</span></span></p>
+<p><span><span><span>•</span>  NX 提供建立 NC 操作之前快速進行分析的能力。</span></span></p>
+<p><span><span><span>•</span>  建模、組立件與製圖-NX 提供了 CAD 功能組合。這些功能已納入 NX CAM 之中，可供用來建立零件、坯件形狀、夾治具或工具機模型以進行模擬。</span></span></p>
+<p><span><span><span><span>•</span>模擬技術融合到結構、動作、熱力、流體、多重物理與最佳化解決方案</span></span></span><span><span><br/><br/></span></span></p>
+<p><span><span><span><span>註</span>:1-繪圖過程中如有需修改，可直接改寫程式碼，不須改圖。</span></span></span></p>
+<p><span><span><span>       2-產生應力分析，並分析最佳化。</span></span></span></p>
+<div><span>CAD</span><br/> </div>
+<div><span><span><span>•</span>製造流程從零件設計資料輸入開始，通常是 3D CAD 模型，在某些情況下也可能是 2D圖面。通常會需要用到 3D CAD 軟體以準備或調整零件設計模型。</span></span></div>
+<div><span><span></span></span></div>
+<div><span><span>CAD 應用程式也可以用來設計與組合夾治具。NX CAM 套件內含完全整合的 CAD 功能，全部納入同一套 NX 系統之中。<br/><br/><span>CAM</span></span></span><br/> </div>
+<p>=======</p>
+<p><span style="color: #ff9900;">NX特點</span></p>
+<p><span><span><span style="color: #ff9900;">•</span> </span><span> </span>3D 零件建模使用協力廠商的 CAD 模型。</span><span>利用同步建模技術，可直接編輯零件模型，並準備讓零件進入NC編程<span face="微軟正黑體">。</span></span></p>
+<p><span><span><span style="color: #ff9900;">•</span>  NX 提供建立 NC 操作之前快速進行分析的能力。</span></span></p>
+<p><span><span><span style="color: #ff9900;">•</span>  建模、組立件與製圖-NX 提供了 CAD 功能組合。這些功能已納入 NX CAM 之中，可供用來建立零件、坯件形狀、夾治具或工具機模型以進行模擬。</span></span></p>
+<p><span><span><span><span style="color: #ff9900;">•</span>模擬技術融合到結構、動作、熱力、流體、多重物理與最佳化解決方案</span></span></span><span><span><br/><br/></span></span></p>
+<p><span><span><span><span>註</span>:1-繪圖過程中如有需修改，可直接改寫程式碼，不須改圖。</span></span></span></p>
+<p><span><span><span>       2-產生應力分析，並分析最佳化。</span></span></span></p>
+<div><span style="color: #ff9900;">CAD</span><br/> </div>
+<div><span><span><span>•</span>製造流程從零件設計資料輸入開始，通常是 3D CAD 模型，在某些情況下也可能是 2D圖面。通常會需要用到 3D CAD 軟體以準備或調整零件設計模型。</span></span></div>
+<div><span><span></span></span></div>
+<div><span><span>CAD 應用程式也可以用來設計與組合夾治具。NX CAM 套件內含完全整合的 CAD 功能，全部納入同一套 NX 系統之中。<br/><br/><span style="color: #ff9900;">CAM</span></span></span><br/> </div>
+<div><span><span><span>•</span>NX CAM 包含 NC 編程、後處理及工具機模擬。</span></span></div>
+<div><span><span></span></span></div>
+<div><span><span><span>•</span>套件Siemens 為進階工具機控制器技術及驅動設備領域的公認領導廠商。</span></span>提供 CAD-CAM-CNC 流程鏈支援，讓您最新的工具機投資價值發揮到極致。</div>
+<div></div>
+<div><span style="color: #ff9900;">電子書:</span></div>
+<div></div>
+<div><span><a href="https://docs.plm.automation.siemens.com/docs/nx/12.0.1/en_US/release_notes.pdf">https://docs.plm.automation.siemens.com/docs/nx/12.0.1/en_US/release_notes.pdf</a></span></div>
+<div></div>
+<div><span>1.</span>SMP</div>
+<div>Symmetric Multiprocessing (SMP) is supported in NX mostly via Parasolid, although a small number</div>
+<div></div>
+<div>翻譯:
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">NX主要通過Parasolid支持對稱多處理（SMP），儘管數量很少<br/><br/><span>2.</span>目錄<br/>The new NX runtime directory does not contain all binaries and executables. Only the most frequently<br/>used files from the following directories have been moved:<br/><span>•</span> UGII<br/><span>•</span> UGMANAGER<br/><span>•</span> STEP203UG<br/><span>•</span> STEP214UG<br/><span>•</span> PVTRANS<br/><span>•</span> MACH<br/>Other files will also be moved over time. However, some applications, such as NX Nastran, will<br/>not be moved.<br/><br/></span></pre>
+=======
+<div><span style="color: #ff9900;">1.SMP</span></div>
+<div>Symmetric Multiprocessing (SMP) is supported in NX mostly via Parasolid, although a small number</div>
+<div></div>
+<div>翻譯:
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">NX主要通過Parasolid支持對稱多處理（SMP），儘管數量很少<br/><br/><span style="color: #ff9900;">2.目錄</span><br/>The new NX runtime directory does not contain all binaries and executables. Only the most frequently<br/>used files from the following directories have been moved:<br/><span>•</span> UGII<br/><span>•</span> UGMANAGER<br/><span>•</span> STEP203UG<br/><span>•</span> STEP214UG<br/><span>•</span> PVTRANS<br/><span>•</span> MACH<br/>Other files will also be moved over time. However, some applications, such as NX Nastran, will<br/>not be moved.<br/><br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0">翻譯:</span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"></span><span lang="zh-TW" tabindex="0">新的NX運行時目錄不包含所有二進製文件和可執行文件。 僅移動了以下目錄中最常用的文件：
+<span>•</span>UGII
+<span>•</span>UGMANAGER
+<span>•</span>STEP203UG
+<span>•</span>STEP214UG
+<span>•</span>PVTRANS
+<span>•</span>馬赫
+其他文件也會隨著時間的推移而移動。但是，某些應用程序（例如NX Nastran）將
+不動。</span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><br/><span>3.<span>版本</span></span><br/>Historically, the NX product release has included the refile utility, which was created many years ago<br/>This utility was never mandatory when performing NX upgrades.<br/>NX product enhancements and improvements that are delivered and available in the current NX<br/>release make NX upgrades much faster and easier, so the refile utility is now obsolete. <br/><br/>the refile utility is retired starting in NX 12.0.1. The documentation for the utility has already been<br/>removed in NX 12.<br/>In place of the refile utility, standalone utilities will be introduced that incorporate non-version-up<br/>related options and future NX batch processes.<br/>Teamcenter names and values of properties localized<br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><br/><span style="color: #ff9900;">3.版本</span><br/>Historically, the NX product release has included the refile utility, which was created many years ago<br/>This utility was never mandatory when performing NX upgrades.<br/>NX product enhancements and improvements that are delivered and available in the current NX<br/>release make NX upgrades much faster and easier, so the refile utility is now obsolete. <br/><br/>the refile utility is retired starting in NX 12.0.1. The documentation for the utility has already been<br/>removed in NX 12.<br/>In place of the refile utility, standalone utilities will be introduced that incorporate non-version-up<br/>related options and future NX batch processes.<br/>Teamcenter names and values of properties localized<br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><br/><span>•</span></span><span lang="zh-TW" tabindex="0">there is now the capability to have the names and values of properties translated and<br/>displayed in multiple languages. <br/><br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">•</span><span lang="zh-TW" tabindex="0">the Part Family template spreadsheet</span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"> </span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><span>•</span>New Item<br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><span>•</span>Save<br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><span>•</span>Import, and component properties dialog boxes.</span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"></span>翻譯:<br/><span lang="zh-TW" tabindex="0"></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">從歷史上看，NX產品版本包含了refile實用程序，該實用程序是多年以前創建的，<span>執行NX升級時，該實用程序從不是必需的。 <br/>當前NX中提供和可用的NX產品增強和改進 發布版本使NX的升級變得更快，更容易，因此refile實用程序現在已過時。<br/></span></span><span lang="zh-TW" tabindex="0">
+從NX 12.0.1開始，重新歸檔實用程序已停用。該實用程序的文檔已經在NX 12中已刪除。
+代替refile實用程序，將引入合併非版本升級的獨立實用程序，其中包含與非版
+本相關選項和將來的NX批處理過程。
+<br/>Teamcenter名稱和屬性值已本地化<br/><br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">•</span><span lang="zh-TW" tabindex="0">現在可以轉換屬性的名稱和值，並 以多種語言顯示。<br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">•</span><span lang="zh-TW" tabindex="0">零件族模板電子表格</span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><span>•</span>新選項<br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><span>•</span>保存<br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">•<span>“導入”和“組件屬性”對話框。</span></span><span lang="zh-TW" tabindex="0"><br/><br/><span>4.</span>尺寸<br/>When you run the ug_convert_part tool to convert an NX 12 part from mm to inch, the settings in the<br/>Unit Manager dialog box do not display the converted units. This is as intended.<br/><br/>翻譯:<br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">當運行ug_convert_part工具將NX 12零件從毫米轉換為英寸時，“單位管理器”對話框中的設置不會顯示轉換後的單位。 這是預期的。<br/><br/><br/><span>Solid Work特點<br/></span><br/>1.<span><span>介面</span>-根據工作需求，自行定義SOLIDWORKS環境<br/></span><br/>2.<span><span>繪圖</span>-</span><span>2D設計會自動與3D模型連動，當修改3D模型時，2D的設計草圖就會自動更新</span></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">•<span>“導入”和“組件屬性”對話框。</span></span><span lang="zh-TW" tabindex="0"><br/><br/><span style="color: #ff9900;">4.尺寸</span><br/>When you run the ug_convert_part tool to convert an NX 12 part from mm to inch, the settings in the<br/>Unit Manager dialog box do not display the converted units. This is as intended.<br/><br/>翻譯:<br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">當運行ug_convert_part工具將NX 12零件從毫米轉換為英寸時，“單位管理器”對話框中的設置不會顯示轉換後的單位。 這是預期的。<br/><br/><br/><span style="color: #ff9900;">Solid Work特點<br/></span><br/>1.<span><span>介面</span>-根據工作需求，自行定義SOLIDWORKS環境<br/></span><br/>2.<span><span>繪圖</span>-</span><span>2D設計會自動與3D模型連動，當修改3D模型時，2D的設計草圖就會自動更新</span></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><span>自動創建設計的材料清單（BOM）和註解，包括尺寸和公差專家工具。</span><br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><span></span><br/>3.<span>排除故障</span>-<span>設計發生衝突，SOLIDWORKS SketchXpert功能，會協助自動進行問題辨識和故障排除</span><br/><span>可大幅減少設計誤差導致的重工和時間、成本上的浪費<br/><br/></span>4.<span>曲線</span>之圖稿與元件設計比其他軟件還好用<br/><br/>5.<span>成本估算</span>-<span>擁有自動成本計算工具，能針對設計的零件製造成本做出估算，可以輸入特定的製造成本和數據，如材料、人工、機器運行速度和損耗，以及安裝成本</span></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"></pre>
+<br/>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"> </span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><strong><span>附註</span>：</strong><br/><span>(1) SOLIDWORKS不支援Windows家用版</span><br/><span>(2) 建議使用Microsoft Windows、Office和IE瀏覽器的最新版本</span><br/><span>(3) 不支援Microsoft Office 即點即用(Click-To-Run)功能</span></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><span style="color: #ff9900;"><strong>附註：</strong></span><br/><span>(1) SOLIDWORKS不支援Windows家用版</span><br/><span>(2) 建議使用Microsoft Windows、Office和IE瀏覽器的最新版本</span><br/><span>(3) 不支援Microsoft Office 即點即用(Click-To-Run)功能</span></span></pre>
+</div>
+<br />Introduction << <a href='Introduction.html'>Previous</a> <a href='Introduction Pull request.html'>Next</a> >> Introduction Pull request</div>
+        
+    <!-- footer -->
+      <div class="container">
+        <div class="row pt-3 mx-auto">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+      </div>
+    <!-- for footer -->
+    
+        </div> <!-- for site wrap -->
+            <!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
+            <script src="../cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery-ui.js"></script>
+            <script src="../cmsimde/static/chimper/js/popper.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/owl.carousel.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.stellar.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.countdown.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/aos.js"></script>
+            <!--
+            <script src="../cmsimde/static/chimper/js/typed.js"></script>
+                    <script>
+                    var typed = new Typed('.typed-words', {
+                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
+                    typeSpeed: 80,
+                    backSpeed: 80,
+                    backDelay: 4000,
+                    startDelay: 1000,
+                    loop: true,
+                    showCursor: true
+                    });
+                    </script>
+            -->
+            <script src="../cmsimde/static/chimper/js/main.js"></script>
+        </body></html>
+        
