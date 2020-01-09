@@ -262,7 +262,7 @@
 <p><br/><span>第9章</span>將是在製造中實施設計模型的實時經驗加工環境。本章介紹工具的生成，驗證和模擬創建CNC（計算機數字代碼）以從多軸生產設計零件的路徑甚至先進的CNC機器。每章中使用的示例和練習問題都經過精心設計，以使它們最終得以應用組裝在本章中。由於這項獨特的功能，您應該保存所有的模型在每一章中都有創建。</p>
 <p>資料連結</p>
 <p><a href="http://mde.tw/cad2019/content/NX.html">http://mde.tw/cad2019/content/NX.html</a></p>
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+<br/>
 <h1>Deal with problems</h1>
 <p>Q:<span style="color: #ff6600;">當倉儲git pull+分組倉儲網址後發現無法正常開啟近端</span></p>
 <p>A:將倉儲start鍵放入文字編輯器並且查看，發現有多一個分號（：），將分號刪除並儲存後即可進入近端</p>
@@ -289,7 +289,7 @@
 <p><span>RESEASON</span><span>(原因 ):</span></p>
 <p>有可能是因為其中一位倉儲推送上去使用到git pull的緣故使得新舊版產生合併問題，造成有兩個版面的緣由</p>
 <p></p>
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD ======= &gt;&gt;&gt;&gt;&gt;&gt;&gt; f07ec51da8d9884493ffdfe7f3272c81c6e7809c
+<br/>
 <p>Q<span style="color: #ff6600;">進入近端卻直接跳下一行並沒有做任何作動</span></p>
 <p>EX:</p>
 <p>D:\87\cmsimde&gt;python wsgi.py</p>
@@ -325,7 +325,8 @@
 <p></p>
 <p>翻譯原文書</p>
 <p><a href="http://www.coppeliarobotics.com/helpFiles/en/buildingAModelTutorial.htm">http://www.coppeliarobotics.com/helpFiles/en/buildingAModelTutorial.htm</a></p>
-<p><a href="https://cyberbotics.com/doc/guide/tutorial-2-modification-of-the-environment">https://cyberbotics.com/doc/guide/tutorial-2-modification-of-the-environment</a></p><h2>Webots User Guide</h2>
+<p><a href="https://cyberbotics.com/doc/guide/tutorial-2-modification-of-the-environment">https://cyberbotics.com/doc/guide/tutorial-2-modification-of-the-environment</a></p>
+<h2>Webots User Guide</h2>
 <p><span>翻譯:</span>用戶指南手冊</p>
 <p><span>Tutorial 2: Modification of the Environment (30 Minutes)</span><br/><span>In this tutorial, we will teach you how to create simple objects in the environment. The first step will be to create a ball which will interact with the environment. We will tackle several concepts related to the nodes: what is their meaning, how to create them, how they have to be affiliated, etc. Moreover we will see how to set up physics.</span></p>
 <p><span>Several kinds of nodes will be introduced. Their detailed definition can be found in Reference Manual. Having the nodes chart diagram in front of you, will also help understanding the nodes inheritance relationship.</span></p>
@@ -437,7 +438,8 @@
 <p>結論</p>
 <p>在本教程的最後，您將能夠基於剛體創建簡單的環境。 您可以從場景樹視圖添加節點並修改其字段。 您已經熟悉了“實體”，“物理”，“形狀”，“球體”和“盒子”節點。 您還看到了使用定義機制，該機制可減少場景樹的節點多餘。</p>
 <p><span>conclusion</span></p>
-<p>At the end of this tutorial, you are able to create simple environments based on rigid bodies. You are able to add nodes from the scene tree view and to modify their fields. You have become acquainted with the Solid, Physics, Shape, Sphere and Box nodes. You also saw the DEF-USE mechanism that allows to reduce node redundancy of the scene tree.</p><h2>Building a clean model tutorial</h2>
+<p>At the end of this tutorial, you are able to create simple environments based on rigid bodies. You are able to add nodes from the scene tree view and to modify their fields. You have become acquainted with the Solid, Physics, Shape, Sphere and Box nodes. You also saw the DEF-USE mechanism that allows to reduce node redundancy of the scene tree.</p>
+<h2>Building a clean model tutorial</h2>
 <p>When building a new model, first, we handle only the visual aspect of it: the dynamic aspect (its undelying even more simplified/optimized model), joints, sensors, etc. will be handled at a later stage.</p>
 <p> </p>
 <p>We could now directly create primitive shapes in CoppeliaSim with [Menu bar --&gt; Add --&gt; Primitive shape --&gt; ...]. When doing this, we have the option to create pure shapes, or regular shapes. Pure shape will be optimized for dynamic interaction, and also directly be dynamically enabled (i.e. fall, collide, but this can be disabled at a later stage). Primitive shapes will be simple meshes, which might not contain enough details or geometric accuracy for our application. Our other option in that case would be to import a mesh from an external application.</p>
@@ -674,4 +676,5 @@
 <p>Now we could add additional items to our robot, such as sensors for instance. At some point we might also want to attach<span><strong><span> </span>embedded scripts</strong><span> </span></span>to our model, in order to control its behaviour or configure it for various purposes. In that case, make sure to understand how object handles are accessed from embedded scripts. We can also control/access/interface our model from a<span><span> </span><strong>plugin</strong></span>, from a<span><span> </span><strong>remote API</strong><span> </span></span>client, from a<span> </span><span><strong>ROS</strong></span><span> </span>node, from a<span> </span><span><strong>BlueZero</strong></span><span> </span>node, or from an<span> </span><span><strong>add-on</strong></span>.</p>
 <p> 現在，我們可以向機器人添加其他項目，例如傳感器。在某些時候，我們可能還希望將<span><strong>嵌入式腳本</strong></span>附加到我們的模型中，以便控制其行為或出於各種目的對其進行配置。在這種情況下，請確保了解如<span><strong>何從嵌入式腳本訪問對象句柄</strong></span>。我們還可以通過<span><strong>插件</strong></span>，<span><strong>遠程API</strong></span>客戶端，<span><strong>ROS</strong></span>節點，<span><strong>BlueZero</strong></span>節點或<span><strong>附加組件</strong></span>來控制<span>/</span>訪問<span>/</span>接口模型。</p>
 <p> Now we make sure we have reverted the changes done during robot and gripper attachment, we collapse the hierarchy tree of our robot model, select the base of our model, then save it with [Menu bar --&gt; File --&gt; Save model as...]. If we saved it in the model folder, then the model will be available in the<span><strong><span> </span>model brower</strong></span>.</p>
-<p>現在，確保已恢復在機械手和抓爪安裝過程中所做的更改，我們折疊了機械手模型的層次樹，選擇了模型的基礎，然後使用<span>[</span>菜單欄<span>-&gt;</span>文件<span>-&gt;</span>將模型另存為<span>...]</span>。如果我們將其保存在模型文件夾中，則模型將在<span><strong>模型瀏覽器</strong></span>中可用。</p></div>
+<p>現在，確保已恢復在機械手和抓爪安裝過程中所做的更改，我們折疊了機械手模型的層次樹，選擇了模型的基礎，然後使用<span>[</span>菜單欄<span>-&gt;</span>文件<span>-&gt;</span>將模型另存為<span>...]</span>。如果我們將其保存在模型文件夾中，則模型將在<span><strong>模型瀏覽器</strong></span>中可用。</p>
+</div>
