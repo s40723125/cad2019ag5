@@ -42,6 +42,18 @@
 <v t="leo.20191220013404.1"><vh>week14-2</vh>
 <v t="leo.20191220013404.2"><vh>week14-1</vh></v>
 </v>
+
+<v t="leo.20200109172018.1"><vh>week15</vh>
+<v t="leo.20200109172018.2"><vh>week15-1</vh></v>
+</v>
+<v t="leo.20200109172401.1"><vh>week16</vh>
+<v t="leo.20200109172401.2"><vh>week16-1</vh></v>
+</v>
+<v t="leo.20200109172507.1"><vh>week17</vh>
+<v t="leo.20200109172507.2"><vh>week17-1</vh></v>
+</v>
+
+
 <v t="leo.20191220013413.1"><vh>週期課程</vh>
 <v t="leo.20191220013413.2"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -509,5 +521,55 @@ A:程式由外部控制虛擬、實體(大略贅述，詳情敘述只紀錄關�
 
 
 </t>
+
+<t tx="leo.20200109172018.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109172018.2">WEEK15
+檢驗1:
+&lt;small&gt;
+Created by [檢驗1](https://s40723114.github.io/cad2019/content/w15%20First.html)
+
+
+</t>
+<t tx="leo.20200109172401.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109172401.2">WEEK16
+檢驗2:
+&lt;small&gt;
+Created by [檢驗1](https://s40723103.github.io/cad2019/content/Week16.html)
+
+
+</t>
+<t tx="leo.20200109172507.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109172507.2">WEEK17
+檢驗3:
+&lt;small&gt;
+Created by [檢驗1](https://s40723114.github.io/cad2019/content/w17%20%E6%9F%A5%E9%A9%973.html)
+
+
+</t>
+
 </tnodes>
 </leo_file>
